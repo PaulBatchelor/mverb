@@ -325,7 +325,7 @@ public:
 
     void setSampleRate(T sr){
         SampleRate = sr;
-        ControlRate = SampleRate / 1000;
+        ControlRate = sr;
         reset();
     }
 };
